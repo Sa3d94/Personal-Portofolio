@@ -1,0 +1,55 @@
+$formLabelWidth: 90px;
+
+:host {
+  display: grid;
+  place-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+}
+.infoContainer {
+  display: grid;
+  grid-template-rows: 20% 80%;
+  // position: absolute;
+  // top: 10%;
+  // left: 5%;
+}
+
+#contactsContainer {
+  display: grid;
+  grid-template-areas:
+    " nameLabel    myName  "
+    " nameLabel    myName  "
+    " emalLabel    email1  "
+    " emalLabel    email2  "
+    " numbLabel    number  "
+    " numbLabel    number  "
+    " contact      contact  ";
+  column-gap: 5px;
+  row-gap: 10px;
+  place-items: left;
+  text-align: left;
+}
+#nameLabel {
+  grid-area: nameLabel;
+}
+#myName {
+  grid-area: myName;
+}
+#emalLabel {
+  grid-area: emalLabel;
+}
+#email {
+  grid-area: email;
+}
+#numbrLabel {
+  grid-area: numbrLabel;
+}
+#number {
+  grid-area: number;
+}
+
+#iconsContainer {
+  margin-top: 40px;
+  grid-area: contact;
+  width: 100%;
+}

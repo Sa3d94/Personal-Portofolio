@@ -1,0 +1,27 @@
+<div id="homeContainer">
+  <!-- [@tada]="true"  -->
+  <img id="profIg" src="assets/images/me.jpeg" class="d-inline-block align-top "
+  alt="">
+  <!-- [@wobble]="true"  -->
+  <h1 id="myName" >Mahmoud Saad</h1>
+  <!-- [@rubberBand]="true" -->
+  <p id="myRole"  >Full Stack Engineer</p>
+  <a class="button btn btn-primary slideInLeft" [@slideInLeft]="true" id="projectBtn" [routerLink]="['/projects']">View Projects</a>
+  <a class="button btn btn-primary slideInRight" [@slideInRight]="true"  id="resumeBtn" href="assets/resume/SAAD_CV.pdf" target="_blank">View
+    Resume</a>
+
+  <div id="iconsContainer">
+    <a href="https://github.com/sa3d94" [@bounceInDown1] ="true" class="contactIcon  bounceInDown" id="githubLink" target="_blank">
+      <fa-icon [icon]="['fab', 'github']"></fa-icon>
+    </a>
+
+    <a href="https://www.linkedin.com/in/mahmoud-saad-333124111/" [@bounceInDown2] ="true" target="_blank" class="contactIcon bounceInDown"
+      id="linkedInLink">
+      <fa-icon [icon]="['fab', 'linkedin']"></fa-icon>
+    </a>
+
+    <a href="mailto:mahmoud_saad94@hotmail.com" [@bounceInDown3] ="true" class="contactIcon bounceInDown" id="emailLink">
+    </a>
+  </div>
+
+</div>
