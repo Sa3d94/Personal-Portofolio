@@ -1,7 +1,7 @@
 [
   {
     "title": "ECommerce Products Web App",
-    "description": "An ECommerce app for navigating different products and add them into cart.",
+    "description": "An ECommerce app for navigating different products and add them into cart.\nUsername: kminchelle Password: 0lelplR",
 
     "projectImage": {
       "src": "assets/images/eCommerce.png",
@@ -9,8 +9,8 @@
     },
 
     "projectPreview": {
-      "description": "Preview",
-      "url": "assets/images/eCommerce.png"
+      "description": "View",
+      "url": "https://sa3d94.github.io/eCommerce-Products"
     },
 
     "projectSourceCode": {
